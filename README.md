@@ -12,13 +12,20 @@ To write a python program to find the inverse of a matrix
 
 ## Program:
 ```
+#Program to find the inverse of a matrix.
+#Developed by:NARENDHARAN.M
+#RegisterNumber:212223230134
+
 import numpy as np
-a=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
-b=np.linalg.inv(a)
-print(b)
+matrix = np.array([[1, 0, 3], 
+                   [-1, 2, -2], 
+                   [2, 3, -1]])
+
+inverse_matrix = np.linalg.inv(matrix)
+print(inverse_matrix)
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/213b7204-71a7-4f74-a6f7-cbab0814d722)
+![image](https://github.com/user-attachments/assets/ad182be7-d889-4c14-92a8-245ee8af6ebc)
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
